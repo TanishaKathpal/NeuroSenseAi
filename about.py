@@ -73,7 +73,7 @@ def show_about():
     </div>
 
     <div style="font-size:24px;color:#cbd5f5;margin-top:15px;">
-    Biosignal-Based Biomarker Detection Platform
+    Biosignal-Based Neurochemical Activity Prediction Platform
     </div>
 
     <div style="color:#94a3b8;margin-top:20px;font-size:18px;">
@@ -96,7 +96,7 @@ to estimate neurotransmitter activity related to **stress, mood, cognition and s
 
     # ---------- BIOMARKERS ----------
 
-    st.header("Supported Biomarkers")
+    st.header("Supported Neurochemical Modules")
 
 
     def biomarker_card(icon,title,text,button,page):
