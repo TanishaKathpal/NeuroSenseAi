@@ -129,6 +129,43 @@ These predictions are intended to explore relationships between biosignal patter
 
 ---
 
+## 📁 Project Structure
+
+```text
+NeuroSenseAI/
+├── datasets/                          # Input datasets and physiological data
+├── models/                            # Trained machine learning models
+│   ├── AcetylCholine_model.pkl
+│   ├── Seratonin_model.pkl
+│   ├── adrenaline_model.pkl
+│   ├── dopamine_model.pkl
+│   ├── endorphin_model.pkl
+│   ├── gaba_model.pkl
+│   ├── glutamate_model.pkl
+│   ├── melatonin_model.pkl
+│   ├── norepinephrine_model.pkl
+│   └── oxytocin_model.pkl
+│
+├── modules/                           # Neurotransmitter-specific application modules
+│   ├── acetylcholine_page.py
+│   ├── adrenaline_page.py
+│   ├── dopamine_page.py
+│   ├── endorphin_page.py
+│   ├── gaba_page.py
+│   ├── glutamate_page.py
+│   ├── melatonin_page.py
+│   ├── norepinephrine_page.py
+│   ├── oxytocin_page.py
+│   └── serotonin_page.py
+│
+├── about.py                           # About page
+├── main_app.py                        # Main Streamlit application
+├── norepinephrine_scaler.pkl          # Saved feature scaler
+├── brainstorm.png                     # Project brainstorming/design asset
+├── requirements.txt                   # Project dependencies
+└── README.md                          # Project documentation
+```
+
 ## 📈 Future Improvements
 
 - Integration with real-time wearable sensor data
